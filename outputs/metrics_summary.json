@@ -1,0 +1,195 @@
+{
+  "label_aps": {
+    "car": {
+      "0.5": 0.0,
+      "1.0": 0.013201698339990697,
+      "2.0": 0.06800273250834007,
+      "4.0": 0.10620097304018508
+    },
+    "truck": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    },
+    "bus": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    },
+    "trailer": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    },
+    "construction_vehicle": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    },
+    "pedestrian": {
+      "0.5": 0.0,
+      "1.0": 0.018516244505775367,
+      "2.0": 0.04951534726798998,
+      "4.0": 0.08334701423121292
+    },
+    "motorcycle": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    },
+    "bicycle": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    },
+    "traffic_cone": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    },
+    "barrier": {
+      "0.5": 0.0,
+      "1.0": 0.0,
+      "2.0": 0.0,
+      "4.0": 0.0
+    }
+  },
+  "mean_dist_aps": {
+    "car": 0.04685135097212896,
+    "truck": 0.0,
+    "bus": 0.0,
+    "trailer": 0.0,
+    "construction_vehicle": 0.0,
+    "pedestrian": 0.03784465150124457,
+    "motorcycle": 0.0,
+    "bicycle": 0.0,
+    "traffic_cone": 0.0,
+    "barrier": 0.0
+  },
+  "mean_ap": 0.008469600247337353,
+  "label_tp_errors": {
+    "car": {
+      "trans_err": 0.9314343353540112,
+      "scale_err": 0.7028927438094403,
+      "orient_err": 1.254556631396745,
+      "vel_err": 1.159552315871791,
+      "attr_err": 0.3528091117863465
+    },
+    "truck": {
+      "trans_err": 1.0,
+      "scale_err": 1.0,
+      "orient_err": 1.0,
+      "vel_err": 1.0,
+      "attr_err": 1.0
+    },
+    "bus": {
+      "trans_err": 1.0,
+      "scale_err": 1.0,
+      "orient_err": 1.0,
+      "vel_err": 1.0,
+      "attr_err": 1.0
+    },
+    "trailer": {
+      "trans_err": 1.0,
+      "scale_err": 1.0,
+      "orient_err": 1.0,
+      "vel_err": 1.0,
+      "attr_err": 1.0
+    },
+    "construction_vehicle": {
+      "trans_err": 1.0,
+      "scale_err": 1.0,
+      "orient_err": 1.0,
+      "vel_err": 1.0,
+      "attr_err": 1.0
+    },
+    "pedestrian": {
+      "trans_err": 0.7775525928707019,
+      "scale_err": 0.5778468211454175,
+      "orient_err": 1.533674445088621,
+      "vel_err": 1.181060688600824,
+      "attr_err": 0.9610917775383354
+    },
+    "motorcycle": {
+      "trans_err": 0.7716967064023632,
+      "scale_err": 0.7245098640507934,
+      "orient_err": 2.000662667445807,
+      "vel_err": 0.17428586938505214,
+      "attr_err": 0.18160927753451614
+    },
+    "bicycle": {
+      "trans_err": 0.8665111881969121,
+      "scale_err": 0.7276117266576763,
+      "orient_err": 2.1438523542825965,
+      "vel_err": 3.741780786929446,
+      "attr_err": 0.9791288032564007
+    },
+    "traffic_cone": {
+      "trans_err": 1.686649371827228,
+      "scale_err": 0.8438928141996446,
+      "orient_err": NaN,
+      "vel_err": NaN,
+      "attr_err": NaN
+    },
+    "barrier": {
+      "trans_err": 1.0,
+      "scale_err": 1.0,
+      "orient_err": 1.0,
+      "vel_err": NaN,
+      "attr_err": NaN
+    }
+  },
+  "tp_errors": {
+    "trans_err": 1.0033844194651216,
+    "scale_err": 0.8576753969862972,
+    "orient_err": 1.3258606775793078,
+    "vel_err": 1.282084957598389,
+    "attr_err": 0.8093298712644499
+  },
+  "tp_scores": {
+    "trans_err": 0.0,
+    "scale_err": 0.14232460301370276,
+    "orient_err": 0.0,
+    "vel_err": 0.0,
+    "attr_err": 0.19067012873555012
+  },
+  "nd_score": 0.03753427329859396,
+  "eval_time": 1.4661798477172852,
+  "cfg": {
+    "class_range": {
+      "car": 50,
+      "truck": 50,
+      "bus": 50,
+      "trailer": 50,
+      "construction_vehicle": 50,
+      "pedestrian": 40,
+      "motorcycle": 40,
+      "bicycle": 40,
+      "traffic_cone": 30,
+      "barrier": 30
+    },
+    "dist_fcn": "center_distance",
+    "dist_ths": [
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "dist_th_tp": 2.0,
+    "min_recall": 0.1,
+    "min_precision": 0.1,
+    "max_boxes_per_sample": 500,
+    "mean_ap_weight": 5
+  },
+  "meta": {
+    "use_camera": false,
+    "use_lidar": true
+  }
+}
